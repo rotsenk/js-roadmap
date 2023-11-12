@@ -1,8 +1,8 @@
 # What is a variable?
 
-A variable is a fundamental concept in programming and web development. It is a named container or identifier that is used to store and manage data within a program or script. 
+Una variable nos permite almacenar datos de nuestros programas.
 
-```html
+```html 
 <button id="button_A">Press Me</button>
 <h3 id="heading_A"></h3>
 ```
@@ -23,11 +23,16 @@ A variable is a fundamental concept in programming and web development. It is a 
 # Declaring Variable
 To use a variable, you've first go to create it - more accurately, we call this declaring the variable.
 
+### features of a variable:
+1. nombre
+2. valor almacenado (tipo de dato)
+3. Dirección de memoria
+
 To do this, we type keyword let followed by the name you want to call you variable:
 
 ```js
-let myName; 
-let myAge;
+var myName; 
+let myAge;//más recomendada
 ```
 
 Here we're creating two variables called `myName` and `myAge`.
